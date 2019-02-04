@@ -32,7 +32,9 @@ header,
 #noob{
    padding-top: 350px; 
 }
-
+#footer{
+    background-color: #212121 !important;
+}
 #noob1{
     padding-left: 600px;
 }
@@ -48,7 +50,7 @@ h5 {
 }
 
 #contact{
-    background-color: #212121 !important;
+    background-color: white  !important;
 }
 
 .hr-light {
