@@ -1,19 +1,30 @@
 body {
-  background: #333;
-  color: #fff;
+    
+background:
+    color: yellow;
+  
 }
 
 .navbar {
-  border-bottom: #008ed6 3px solid;
-  opacity: 0.1;
+  border-bottom: #FFFFFF 1px solid;
+  opacity: 1;
+  
+  
 }
 
+.nav-link{
+    color:yellow;
+}
+.navbar-brand{
+   color: yellow; 
+}
 #home-section {
   background: url(img/22129465.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 700px;
+  min-height: 600px;
+    text-align: center;
 }
 
 #home-section .dark-overlay {

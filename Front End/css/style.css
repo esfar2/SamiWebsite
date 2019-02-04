@@ -1,0 +1,57 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #212121 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent   !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #1a237e indigo darken-4 !important;
+      
+  }
+}
+
+#noob{
+   padding-top: 350px; 
+}
+
+#noob1{
+    padding-left: 600px;
+}
+
+h1 {
+  letter-spacing: 8px;
+   
+}
+
+h5 {
+  letter-spacing: 3px;
+    
+}
+
+#contact{
+    background-color: #212121 !important;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
