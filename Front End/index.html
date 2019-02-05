@@ -54,7 +54,7 @@
 
         <!-- Navbar -->
         <!-- Full Page Intro -->
-        <div class="view img-fluid" style="background-image: url(img/22129465.jpg);background-repeat: no-repeat; background-size: cover; background-position: center center;">
+        <div class="view " style="background-image: url(img/abstract-architecture-art-370717.jpg);background-repeat: no-repeat; background-size: cover; background-position: center center;background-attachment: fixed;">
             <!-- Mask & flexbox options-->
             <div class="mask rgba-black-light align-items-center">
                 <!-- Content -->
@@ -64,11 +64,11 @@
                        <div class="container">
                         <!--Grid column-->
                         <div class="col-md-12 mb-4 white-text text-center">
-                            <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Software Developer and Computer Science Student</strong></h1>
+                            <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 " data-wow-delay="0.3s"><strong>Software Developer and Computer Science Student</strong></h1>
                           <hr class="my-3 bg-white" data-wow-delay="0.4s">
-                            <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Programming</strong></h5>
+<!--                            <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Programming</strong></h5>-->
 
-                            <a class="btn  btn-outline-white wow fadeInDown" data-wow-delay="0.4s">My Resume</a>
+                            <a class="btn  btn-outline-white " data-wow-delay="0.4s">My Resume</a>
                         </div>
                         <!--Grid column-->
                     </div>
@@ -83,7 +83,7 @@
     </header>
     <!--  My Prjojects  -->
     <section id="project" class="mt-2">
-      <div  class="card card-image img-fluid" style="background-image:url(img/architecture-background-bay-1449455.jpg);background-repeat: no-repeat; background-size: cover; background-position: center center;">
+      <div  class="card card-image " id="project-img" style="background-image:url(img/architecture-background-bay-1449455.jpg);background-repeat: no-repeat; background-size: cover; background-position: center center;background-attachment: fixed;">
         <div class="container" >
 
             <h1 class="h1-reponsive white-text text-center text-uppercase font-weight-bold mb-0 pt-md-5 pt-2 wow fadeInDown pb-3" data-wow-delay="0.3s"><strong>My Projects</strong></h1>
@@ -159,7 +159,7 @@
     
     <!-- Jumbotron -->
     <section id="blog" class="mt-2">
-<div  class="card card-image img-fluid" style="background-image:url(img/austin-poon-728200-unsplash.jpg);background-repeat: no-repeat; background-size: cover; background-position: center center;">
+<div  class="card card-image " style="background-image:url(img/austin-poon-728200-unsplash.jpg);background-repeat: no-repeat; background-size: cover; background-position: center center;background-attachment: fixed;">
   <div class="text-white text-center py-5 px-4">
   <div class="container">
   
@@ -257,11 +257,12 @@
     </section>
 
     <!--  Contact    -->
-    <section id="contact">
+    <section id="contact" class="mt-2">
+        <div class="view " style="background-image: url(img/computer-device-display-953213.jpg);background-repeat: no-repeat; background-size: cover; background-position: center center; background-attachment: fixed;">
 
-        <h1 class="h1-reponsive dark-text text-center text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown pb-3" data-wow-delay="0.3s"><strong>Contact Info</strong></h1>
+        <h1 class="h1-reponsive text-white text-center text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown pb-3" data-wow-delay="0.3s"><strong>Contact Info</strong></h1>
 
-        <div class="container wow fadeInDown">
+        <div class="container ">
 
 
 
@@ -271,30 +272,32 @@
                 <!--Grid column-->
               
                     <!-- Form contact -->
-                    <form class="p-5 red-text">
+                    <form class="p-5 white-text">
                         <div class="md-form form-sm"> <i class="fas fa-user prefix"></i>
                             <input type="text" id="form3" class="form-control form-control-sm">
-                            <label for="form3">Your name</label>
+                            <label for="form3" class="text-white">Your name</label>
                         </div>
                         <div class="md-form form-sm"> <i class="fas fa-envelope prefix "></i>
                             <input type="text" id="form2" class="form-control form-control-sm">
-                            <label for="form2 ">Your email</label>
+                            <label for="form2 " class="text-white">Your email</label>
                         </div>
                         <div class="md-form form-sm"> <i class="fas fa-tag prefix"></i>
                             <input type="text" id="form32" class="form-control form-control-sm">
-                            <label for="form34">Subject</label>
+                            <label for="form34" class="text-white">Subject</label>
                         </div>
                         <div class="md-form form-sm"> <i class="fas fa-pencil-alt prefix"></i>
                             <textarea type="text" id="form8" class="md-textarea form-control form-control-sm" rows="4"></textarea>
-                            <label for="form8">Your message</label>
+                            <label for="form8" class="text-white">Your message</label>
                         </div>
                         <div class="text-center mt-4">
-                            <button type="button" class="btn btn-outline-danger waves-effect">Send</button>
+                            <button type="button" class="btn btn-outline-white waves-effect">Send</button>
                         </div>
                     </form>
                     <!-- Form contact -->
                 
                 <!--Grid column-->
+            </div>
+        </div>
 
     
 
@@ -367,34 +370,14 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.js"></script>
+    <script src="js/myscript.js"></script>
 
-    <script>
-        // Animations init
-        new WOW().init();
-    </script>
+    
     
     
   <script>
    
-    // Init Scrollspy
-    $('body').scrollspy({ target: '#navbarSupportedContent-7' });
-
-    // Smooth Scrolling
-    $("#navbarSupportedContent-7 a").on('click', function (event) {
-      if (this.hash !== "") {
-        event.preventDefault();
-
-        const hash = this.hash;
-
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function () {
-
-          window.location.hash = hash;
-        });
-      }
-    }); 
-  </script>
+    
 
 </body>
 
