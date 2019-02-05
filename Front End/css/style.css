@@ -3,6 +3,7 @@ body,
 header,
 .view {
   height: 100%;
+    background-color: white;
 }
 
 @media (max-width: 740px) {
