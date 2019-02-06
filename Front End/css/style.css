@@ -31,10 +31,11 @@ header,
 }
 
 #noob{
-   padding-top: 250px; 
+   padding-top: 195px; 
 }
 #footer{
     background-color: #212121 !important;
+    margin-bottom: 0px;
 }
 #noob1{
     padding-left: 600px;
