@@ -3,7 +3,7 @@ body,
 header,
 .view {
   height: 100%;
-    background-color: white;
+    background-color:#000000;
 }
 
 @media (max-width: 740px) {
@@ -16,7 +16,7 @@ header,
 }
 
 .top-nav-collapse {
-  background-color: #212121 !important;
+  background-color: #000000 !important;
 }
 
 .navbar:not(.top-nav-collapse) {
