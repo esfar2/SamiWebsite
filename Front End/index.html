@@ -1,5 +1,3 @@
-{% load static %}
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,11 +9,11 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <!-- Bootstrap core CSS -->
-    <link href="{% static 'Front/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
-    <link href="{% static 'Front/css/mdb.min.css' %}" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
-    <link href="{% static 'Front/css/style.css' %}" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -48,14 +46,10 @@
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
-
-
-                </div>
-
-                 <!--Grid column-->
-                <div class="col-md-6 col-lg-7 text-center mr-5 text-md-right">
-
-
+                            <!--Grid column-->
+                <div class="col-md-6 col-lg-7  text-center mr-5 text-md-right">
+                   
+                   
                     <!--Linkedin-->
                     <a href="https://www.linkedin.com/in/osama-esfar-sami-4344b8173/" class="li-ic">
                         <i class="fab fa-linkedin-in white-text mr-4"> </i>
@@ -67,11 +61,15 @@
                 </div>
                 <!--Grid column-->
 
+                </div>
+                
+               
+
         </nav>
 
         <!-- Navbar -->
         <!-- Full Page Intro -->
-        <div class="view" id="my-home" style="background-image: url('{% static 'Front/images/blurred-background-coffee-cup-computer-908284.jpg' %}');background-repeat: no-repeat; background-size: cover; background-position: center center;">
+        <div class="view" id="my-home" style="background-image: url(img/blurred-background-coffee-cup-computer-908284.jpg);background-repeat: no-repeat; background-size: cover; background-position: center center;">
             <!-- Mask & flexbox options-->
             <div class="mask rgba-black-light align-items-center">
                 <!-- Content -->
@@ -100,14 +98,14 @@
     </header>
     <!--  My Prjojects  -->
     <section id="project" class="mt-2">
-      <div  class="card card-image " id="project-img" style="background-image:url('{% static 'Front/images/projectss.jpeg' %}');background-repeat: no-repeat; background-size: cover; background-position: center center; background-attachment: fixed;">
+      <div  class="card card-image " id="project-img" style="background-image:url(img/projectss.jpeg);background-repeat: no-repeat; background-size: cover; background-position: center center; background-attachment: fixed;">
         <div class="container" >
 
             <h1 class="h1-reponsive white-text text-center text-uppercase font-weight-bold mb-3 mt-3 pt-md-5 pt-2 wow fadeInDown pb-3" data-wow-delay="0.3s"><strong>My Projects</strong></h1>
 
-
+            
          <div class="row">
-
+             
              <div class="col-sm-12 mb-4 col-lg-4 wow rotateInDownRight">
                  <div class="card card-image"style="background: transparent;">
 
@@ -125,7 +123,7 @@
 
 </div>
              </div>
-
+             
              <div class="col-sm-12 mb-4 col-lg-4 wow heartBeat">
                  <div class="card card-image pb-5" style="background: transparent;">
 
@@ -143,7 +141,7 @@
 
 </div>
              </div>
-
+             
              <div class="col-sm-12 mb-4 col-lg-4 wow rotateInDownLeft">
                  <div class="card card-image" style="background: transparent;">
 
@@ -161,28 +159,28 @@
 
 </div>
              </div>
-         </div>
+         </div>         
+                  
 
-
-
+           
         </div>
-
+        
         </div>
 
     </section>
-
-
+    
+    
 <!--    Blog-->
-
+    
     <!-- Jumbotron -->
     <section id="blog" class="mt-2">
-<div  class="card card-image " style="background-image:url('{% static 'Front/images/pexels-photo.jpg' %}');background-repeat: no-repeat; background-size: cover; background-position: center center;background-attachment: fixed;">
+<div  class="card card-image " style="background-image:url(img/pexels-photo.jpg);background-repeat: no-repeat; background-size: cover; background-position: center center;background-attachment: fixed;">
   <div class="text-white text-center py-5 px-4">
   <div class="container">
-
+  
    <h1 class="h1-reponsive white-text text-center text-uppercase font-weight-bold mb-5 pt-md-1 pt-1 wow fadeInDown pb-0" data-wow-delay="0.3s"><strong>My Blog</strong></h1>
 
-
+            
    <div class="row">
         <div class="col-sm-12 mb-2 col-md-12 col-lg-3 wow rotateInDownRight ">
           <!-- Card -->
@@ -203,8 +201,8 @@
 </div>
 <!-- Card -->
        </div>
-
-
+       
+       
        <div class="col-sm-12  mb-2 col-md-12 col-lg-3 wow bounceInRight">
           <!-- Card -->
 <div class="card card-image" style="background: transparent;">
@@ -224,7 +222,7 @@
 </div>
 <!-- Card -->
        </div>
-
+       
         <div class="col-sm-12 mb-2 col-md-12 col-lg-3 wow bounceInLeft">
          <!-- Card -->
 <div class="card card-image" style="background: transparent;">
@@ -244,7 +242,7 @@
 </div>
 <!-- Card -->
        </div>
-
+       
         <div class="col-sm-12 col-md-12 mb-2 col-lg-3 wow rotateInDownLeft">
         <!-- Card -->
 <div class="card card-image" style="background: transparent;">
@@ -264,8 +262,8 @@
 </div>
 <!-- Card -->
        </div>
-
-
+       
+       
    </div>
       </div>
   </div>
@@ -284,10 +282,10 @@
 
 
             <!--Grid row-->
-
+            
 
                 <!--Grid column-->
-
+              
                     <!-- Form contact -->
                     <form class="p-5 red-text wow fadeInDown">
                         <div class="md-form form-sm"> <i class="fas fa-user prefix"></i>
@@ -311,12 +309,12 @@
                         </div>
                     </form>
                     <!-- Form contact -->
-
+                
                 <!--Grid column-->
             </div>
         </div>
 
-
+    
 
 </section>
 
@@ -324,29 +322,29 @@
             <!--Grid column-->
      <!-- Footer -->
 <footer>
-
+  
 
 
     <!-- Social buttons -->
-    <div id="footer" style="height: 30px;">
+    <div id="footer" >
         <div class="container-fluid" style=" background-color:#000000;">
             <!--Grid row-->
-
+        
 
                 <!--Grid column-->
                 <h6 class="text-white text-center">© 2019 Copyright Osama Esfar Sami</h6>
-
-
+                
+                
                 <!--Grid column-->
 
-
+               
 
             </div>
-
+    
             <!--Grid row-->
         </div>
-
-
+    
+  
         </footer>
 
 
@@ -360,21 +358,21 @@
 
     <!-- SCRIPTS -->
     <!-- JQuery -->
-    <script type="text/javascript" src="{% static 'Front/js/jquery-3.3.1.min.js' %}"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="{% static 'Front/js/popper.min.js' %}"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="{% static 'Front/js/bootstrap.min.js' %}"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="{% static 'Front/js/mdb.js' %}"></script>
-    <script src="{% static 'Front/js/myscript.js' %}"></script>
+    <script type="text/javascript" src="js/mdb.js"></script>
+    <script src="js/myscript.js"></script>
 
-
-
-
+    
+    
+    
   <script>
-
-
+   
+    
 
 </body>
 
